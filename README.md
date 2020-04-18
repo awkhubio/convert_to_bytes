@@ -1,6 +1,7 @@
 # convert_to_bytes
 convert_to_bytes
 Example output with DEBUG=1
+<pre>
 awk -f convert_to_bytes.awk input_examples.txt 
 # GiB found. NR: 1 NF: 1 Value: 0GiB
 # GiB found. NR: 1 NF: 1 Value: 0 Value in bytes: 0
@@ -17,3 +18,4 @@ awk -f convert_to_bytes.awk input_examples.txt
 # GiB found. NR: 6 NF: 1 Value: 1234GiB
 # GiB found. NR: 6 NF: 1 Value: 1324997410816 Value in bytes: 1324997410816
 # Value: 1324997410816
+</pre>
